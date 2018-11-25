@@ -8,10 +8,10 @@ This is a repository that is meant to quickly insert new data into our test data
 
 2. cd into the Repo and install the dependencies
 
-`npm i`
+    `npm i`
 
 3. Make sure that the mongoDB daemon is running and run the index.js file
 
-`npm start`
+    `npm start`
 
 *This script currently inserts into the local MongoDB database. To change this, change the connection string, `mongoUrl` in `config/mongoConnection.js`
