@@ -1,0 +1,16 @@
+{
+  "name": "test-data",
+  "version": "1.0.0",
+  "description": "This is a repository that is meant to quickly insert new data into our test database for presentational purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "mongodb": "^3.1.10"
+  }
+}

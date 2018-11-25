@@ -1,0 +1,206 @@
+[
+    {
+        "_id": 311,
+        "userId": 1,
+        "submissionDate": "2018-12-10 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 312,
+        "userId": 1,
+        "submissionDate": "2018-12-19 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 321,
+        "userId": 1,
+        "submissionDate": "2018-12-10 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 322,
+        "userId": 1,
+        "submissionDate": "2018-12-19 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 331,
+        "userId": 1,
+        "submissionDate": "2018-12-10 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 332,
+        "userId": 1,
+        "submissionDate": "2018-12-19 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 341,
+        "userId": 1,
+        "submissionDate": "2018-12-10 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 342,
+        "userId": 1,
+        "submissionDate": "2018-12-19 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 351,
+        "userId": 1,
+        "submissionDate": "2018-12-10 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 352,
+        "userId": 1,
+        "submissionDate": "2018-12-19 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 361,
+        "userId": 1,
+        "submissionDate": "2018-12-10 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     },
+    {
+        "_id": 362,
+        "userId": 1,
+        "submissionDate": "2018-12-19 00:00",
+        "file": "submission.py",
+        "errorTesting": false,
+        "cases": {
+           "studentFacing": {
+              "pass": 15,
+              "fail": 5 
+           },
+           "adminFacing": {
+              "pass": 15,
+              "fail": 10 
+           }
+        }
+     }
+]

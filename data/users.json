@@ -1,0 +1,65 @@
+[
+  {
+     "_id": 1,
+     "email": "student@stevens.edu",
+     "firstName": "John",
+     "lastName": "Doe",
+     "password": "password",
+     "enrolledCourses": [
+        {
+           "courseID": 101,
+           "enrollmentType": "student"
+        },
+        {
+           "courseID": 102,
+           "enrollmentType": "student"
+        },
+        {
+           "courseID": 103,
+           "enrollmentType": "student"
+        }
+     ]
+  },
+  {
+     "_id": 2,
+     "email": "teacher@stevens.edu",
+     "firstName": "Bob",
+     "lastName": "Smith",
+     "password": "password",
+     "enrolledCourses": [
+        {
+           "courseID": 101,
+           "enrollmentType": "teacher"
+        },
+        {
+           "courseID": 102,
+           "enrollmentType": "teacher"
+        },
+        {
+           "courseID": 103,
+           "enrollmentType": "teacher"
+        }
+     ]
+  },
+  {
+     "_id": 3,
+     "email": "assistant@stevens.edu",
+     "firstName": "Jane",
+     "lastName": "Cook",
+     "password": "password",
+     "enrolledCourses": [
+        {
+           "courseID": 101,
+           "enrollmentType": "assistant"
+        },
+        {
+           "courseID": 102,
+           "enrollmentType": "assistant"
+        },
+        {
+           "courseID": 103,
+           "enrollmentType": "assistant"
+        }
+     ]
+  }
+]
