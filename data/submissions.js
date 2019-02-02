@@ -1,7 +1,9 @@
-[
+const { userIDs, submissionIDs } = require('./IDs');
+
+module.exports = [
     {
-        "_id": 311,
-        "userId": 1,
+        "_id": submissionIDs[0],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -17,8 +19,8 @@
         }
      },
     {
-        "_id": 312,
-        "userId": 1,
+        "_id": submissionIDs[1],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -34,8 +36,8 @@
         }
      },
     {
-        "_id": 321,
-        "userId": 1,
+        "_id": submissionIDs[2],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -51,8 +53,8 @@
         }
      },
     {
-        "_id": 322,
-        "userId": 1,
+        "_id": submissionIDs[3],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -68,8 +70,8 @@
         }
      },
     {
-        "_id": 331,
-        "userId": 1,
+        "_id": submissionIDs[4],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -85,8 +87,8 @@
         }
      },
     {
-        "_id": 332,
-        "userId": 1,
+        "_id": submissionIDs[5],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -102,8 +104,8 @@
         }
      },
     {
-        "_id": 341,
-        "userId": 1,
+        "_id": submissionIDs[6],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -119,8 +121,8 @@
         }
      },
     {
-        "_id": 342,
-        "userId": 1,
+        "_id": submissionIDs[7],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -136,8 +138,8 @@
         }
      },
     {
-        "_id": 351,
-        "userId": 1,
+        "_id": submissionIDs[8],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -153,8 +155,8 @@
         }
      },
     {
-        "_id": 352,
-        "userId": 1,
+        "_id": submissionIDs[9],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -170,8 +172,8 @@
         }
      },
     {
-        "_id": 361,
-        "userId": 1,
+        "_id": submissionIDs[10],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -187,8 +189,8 @@
         }
      },
     {
-        "_id": 362,
-        "userId": 1,
+        "_id": submissionIDs[11],
+        "userId": userIDs[0],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -203,4 +205,4 @@
            }
         }
      }
-]
+];

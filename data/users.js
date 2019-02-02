@@ -1,65 +1,67 @@
-[
+const { userIDs, courseIDs } = require('./IDs');
+
+module.exports = [
   {
-     "_id": 1,
+     "_id": userIDs[0],
      "email": "student@stevens.edu",
      "firstName": "John",
      "lastName": "Doe",
      "password": "password",
      "enrolledCourses": [
         {
-           "courseID": 101,
+           "courseID": courseIDs[0],
            "enrollmentType": "student"
         },
         {
-           "courseID": 102,
+           "courseID": courseIDs[1],
            "enrollmentType": "student"
         },
         {
-           "courseID": 103,
+           "courseID": courseIDs[2],
            "enrollmentType": "student"
         }
      ]
   },
   {
-     "_id": 2,
+     "_id": userIDs[1],
      "email": "teacher@stevens.edu",
      "firstName": "Bob",
      "lastName": "Smith",
      "password": "password",
      "enrolledCourses": [
         {
-           "courseID": 101,
+           "courseID": courseIDs[0],
            "enrollmentType": "teacher"
         },
         {
-           "courseID": 102,
+           "courseID": courseIDs[1],
            "enrollmentType": "teacher"
         },
         {
-           "courseID": 103,
+           "courseID": courseIDs[2],
            "enrollmentType": "teacher"
         }
      ]
   },
   {
-     "_id": 3,
+     "_id": userIDs[2],
      "email": "assistant@stevens.edu",
      "firstName": "Jane",
      "lastName": "Cook",
      "password": "password",
      "enrolledCourses": [
         {
-           "courseID": 101,
+           "courseID": courseIDs[0],
            "enrollmentType": "assistant"
         },
         {
-           "courseID": 102,
+           "courseID": courseIDs[1],
            "enrollmentType": "assistant"
         },
         {
-           "courseID": 103,
+           "courseID": courseIDs[2],
            "enrollmentType": "assistant"
         }
      ]
   }
-]
+];

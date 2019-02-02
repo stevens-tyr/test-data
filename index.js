@@ -38,7 +38,15 @@ const main = async () => {
   await addToDb(courses, courseData, "courses");
   await addToDb(assignments, assignmentData, "assignments");
   await addToDb(submissions, submissionData, "submissions");
-  return;
+  return true;
 };
 
-main();
+(async () => {
+  try {
+    const fin = await main();
+    console.log('Finished populating test db:', fin);
+  } catch(err){
+    console.log(err);
+  }
+  process.exit();
+})();

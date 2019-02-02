@@ -1,7 +1,7 @@
-const userData = require("./users.json");
-const courseData = require("./courses.json");
-const assignmentData = require("./assignments.json");
-const submissionData = require("./submissions.json");
+const userData = require("./users");
+const courseData = require("./courses");
+const assignmentData = require("./assignments");
+const submissionData = require("./submissions");
 
 module.exports = {
   userData,
