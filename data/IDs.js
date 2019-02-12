@@ -34,6 +34,8 @@ const userIDs = [
 	ObjectID('5c55c7d3e455a65082b0b48a'),
 	ObjectID('5c55c7d3e455a65082b0b48b'),
 	ObjectID('5c55c7d3e455a65082b0b48c'),
+	ObjectID('5c55c7d3e455a65082b0b48d'),
+	ObjectID('5c55c7d3e455a65082b0b48e'),
 ];
 
 module.exports = {

@@ -1,4 +1,4 @@
-const { assignmentIDs, submissionIDs } = require('./IDs');
+const { assignmentIDs, userIDs, submissionIDs } = require('./IDs');
 
 module.exports = [
     {
@@ -8,13 +8,33 @@ module.exports = [
         "supportingFiles": "loops.pdf",
         "dueDate": "2018-12-11 00:00",
         "published": true,
-        "testScripts": {
-            "studentFacing": "",
-            "adminFacing": ""
-        },
+        "testBuildCMD": "make",
+        "numAttempts": 10,
+        "tests": [
+            {
+                "name": "basic test",
+                "expectedOutput": "0",
+                "studentFacing": true,
+                "testCMD": "./loops 0",
+            },
+            {
+                "name": "second test",
+                "expectedOutput": "1",
+                "studentFacing": false,
+                "testCMD": "./loops 1",
+            },
+        ],
         "submissions": [
-            submissionIDs[0],
-            submissionIDs[1]
+            {
+                "userID": userIDs[0],
+                "submissionID": submissionIDs[0],
+                "attemptNumber": 1,
+            },
+            {
+                "userID": userIDs[0],
+                "submissionID": submissionIDs[1],
+                "attemptNumber": 2,
+            }
         ]
     },
     {
@@ -24,13 +44,32 @@ module.exports = [
         "supportingFiles": "recursion.pdf",
         "dueDate": "2018-20-11 00:00",
         "published": true,
-        "testScripts": {
-            "studentFacing": "",
-            "adminFacing": ""
-        },
+        "numAttempts": 10,
+        "tests": [
+            {
+                "name": "basic test",
+                "expectedOutput": "0",
+                "studentFacing": true,
+                "testCMD": "./recursion 0",
+            },
+            {
+                "name": "second test",
+                "expectedOutput": "1",
+                "studentFacing": false,
+                "testCMD": "./recursion 1",
+            },
+        ],
         "submissions": [
-            submissionIDs[2],
-            submissionIDs[3]
+        {
+                "userID": userIDs[1],
+                "submissionID": submissionIDs[2],
+                "attemptNumber": 1,
+            },
+            {
+                "userID": userIDs[2],
+                "submissionID": submissionIDs[3],
+                "attemptNumber": 1,
+            }
         ]
     },
     {
@@ -40,13 +79,33 @@ module.exports = [
         "supportingFiles": "linked_lists.pdf",
         "dueDate": "2018-12-11 00:00",
         "published": true,
-        "testScripts": {
-            "studentFacing": "",
-            "adminFacing": ""
-        },
+        "testBuildCMD": "make",
+        "numAttempts": 2,
+        "tests": [
+            {
+                "name": "basic test",
+                "expectedOutput": "0->1",
+                "studentFacing": true,
+                "testCMD": "./ll 0 1",
+            },
+            {
+                "name": "second test",
+                "expectedOutput": "1->3->2",
+                "studentFacing": false,
+                "testCMD": "./ll 1 3 2",
+            },
+        ],
         "submissions": [
-            submissionIDs[4],
-            submissionIDs[5]
+            {
+                "userID": userIDs[1],
+                "submissionID": submissionIDs[4],
+                "attemptNumber": 1,
+            },
+            {
+                "userID": userIDs[1],
+                "submissionID": submissionIDs[5],
+                "attemptNumber": 2,
+            }
         ]
     },
     {
@@ -56,13 +115,33 @@ module.exports = [
         "supportingFiles": "hashmaps.pdf",
         "dueDate": "2018-12-20 00:00",
         "published": true,
-        "testScripts": {
-            "studentFacing": "",
-            "adminFacing": ""
-        },
+        "testBuildCMD": "make",
+        "numAttempts": 10,
+        "tests": [
+            {
+                "name": "basic test",
+                "expectedOutput": "cat:mouse",
+                "studentFacing": true,
+                "testCMD": "./hm cat",
+            },
+            {
+                "name": "second test",
+                "expectedOutput": "dog:cat",
+                "studentFacing": false,
+                "testCMD": "./loops dog",
+            },
+        ],
         "submissions": [
-            submissionIDs[6],
-            submissionIDs[7]
+            {
+                "userID": userIDs[2],
+                "submissionID": submissionIDs[6],
+                "attemptNumber": 1,
+            },
+            {
+                "userID": userIDs[2],
+                "submissionID": submissionIDs[7],
+                "attemptNumber": 2,
+            }
         ]
     },
     {
@@ -72,13 +151,33 @@ module.exports = [
         "supportingFiles": "stair_climber.pdf",
         "dueDate": "2018-12-11 00:00",
         "published": true,
-        "testScripts": {
-            "studentFacing": "",
-            "adminFacing": ""
-        },
+        "testBuildCMD": "make",
+        "numAttempts": 5,
+        "tests": [
+            {
+                "name": "basic test",
+                "expectedOutput": "1",
+                "studentFacing": true,
+                "testCMD": "./sc 1",
+            },
+            {
+                "name": "second test",
+                "expectedOutput": "1",
+                "studentFacing": false,
+                "testCMD": "./loops 1",
+            },
+        ],
         "submissions": [
-            submissionIDs[8],
-            submissionIDs[9]
+            {
+                "userID": userIDs[0],
+                "submissionID": submissionIDs[8],
+                "attemptNumber": 1,
+            },
+            {
+                "userID": userIDs[0],
+                "submissionID": submissionIDs[9],
+                "attemptNumber": 2,
+            }
         ]
     },
     {
@@ -87,14 +186,34 @@ module.exports = [
         "description": "The knapsack problem is a common interviewing question. The knapsack problem is as follows: \"You are passed an array of items with a weight and value. You have a knapsack that can only carry a limited amount of weight. Find the combination of items that maximizes the value that you can put into the knapsack.\"",
         "supportingFiles": "knapsack.pdf",
         "dueDate": "2018-12-20 00:00",
-        "published": true,
-        "testScripts": {
-            "studentFacing": "",
-            "adminFacing": ""
-        },
+        "published": false,
+        "testBuildCMD": "make",
+        "numAttempts": 7,
+        "tests": [
+            {
+                "name": "basic test",
+                "expectedOutput": "null",
+                "studentFacing": true,
+                "testCMD": "./sc",
+            },
+            {
+                "name": "second test",
+                "expectedOutput": "null",
+                "studentFacing": false,
+                "testCMD": "./loops 1",
+            },
+        ],
         "submissions": [
-            submissionIDs[10],
-            submissionIDs[11]
+            {
+                "userID": userIDs[0],
+                "submissionID": submissionIDs[10],
+                "attemptNumber": 1,
+            },
+            {
+                "userID": userIDs[0],
+                "submissionID": submissionIDs[11],
+                "attemptNumber": 1,
+            }
         ]
     }
 ];

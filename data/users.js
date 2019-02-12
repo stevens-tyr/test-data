@@ -1,12 +1,14 @@
 const { userIDs, courseIDs } = require('./IDs');
 
+const password = Buffer.from("$2a$10$J5CkVm8dBZloYFpYS052au8pftlI.p9pAjQbQw34V9IW6gPHrZnN2", "utf8");
+// All passwords are test
 module.exports = [
   {
      "_id": userIDs[0],
      "email": "student@stevens.edu",
      "firstName": "John",
      "lastName": "Doe",
-     "password": "password",
+     "password": password,
      "enrolledCourses": [
         {
            "courseID": courseIDs[0],
@@ -24,10 +26,52 @@ module.exports = [
   },
   {
      "_id": userIDs[1],
+     "email": "student@stevens.edu",
+     "firstName": "John",
+     "lastName": "Doe",
+     "password": password,
+     "enrolledCourses": [
+        {
+           "courseID": courseIDs[0],
+           "enrollmentType": "student"
+        },
+        {
+           "courseID": courseIDs[1],
+           "enrollmentType": "student"
+        },
+        {
+           "courseID": courseIDs[2],
+           "enrollmentType": "student"
+        }
+     ]
+  },
+  {
+     "_id": userIDs[2],
+     "email": "student@stevens.edu",
+     "firstName": "John",
+     "lastName": "Doe",
+     "password": password,
+     "enrolledCourses": [
+        {
+           "courseID": courseIDs[0],
+           "enrollmentType": "student"
+        },
+        {
+           "courseID": courseIDs[1],
+           "enrollmentType": "student"
+        },
+        {
+           "courseID": courseIDs[2],
+           "enrollmentType": "student"
+        }
+     ]
+  },
+  {
+     "_id": userIDs[3],
      "email": "teacher@stevens.edu",
      "firstName": "Bob",
      "lastName": "Smith",
-     "password": "password",
+     "password": password,
      "enrolledCourses": [
         {
            "courseID": courseIDs[0],
@@ -44,11 +88,11 @@ module.exports = [
      ]
   },
   {
-     "_id": userIDs[2],
+     "_id": userIDs[4],
      "email": "assistant@stevens.edu",
      "firstName": "Jane",
      "lastName": "Cook",
-     "password": "password",
+     "password": password,
      "enrolledCourses": [
         {
            "courseID": courseIDs[0],

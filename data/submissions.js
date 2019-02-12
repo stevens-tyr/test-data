@@ -37,7 +37,7 @@ module.exports = [
      },
     {
         "_id": submissionIDs[2],
-        "userId": userIDs[0],
+        "userId": userIDs[1],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -54,7 +54,7 @@ module.exports = [
      },
     {
         "_id": submissionIDs[3],
-        "userId": userIDs[0],
+        "userId": userIDs[2],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -71,7 +71,7 @@ module.exports = [
      },
     {
         "_id": submissionIDs[4],
-        "userId": userIDs[0],
+        "userId": userIDs[1],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -88,7 +88,7 @@ module.exports = [
      },
     {
         "_id": submissionIDs[5],
-        "userId": userIDs[0],
+        "userId": userIDs[1],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -105,7 +105,7 @@ module.exports = [
      },
     {
         "_id": submissionIDs[6],
-        "userId": userIDs[0],
+        "userId": userIDs[2],
         "submissionDate": "2018-12-10 00:00",
         "file": "submission.py",
         "errorTesting": false,
@@ -122,7 +122,7 @@ module.exports = [
      },
     {
         "_id": submissionIDs[7],
-        "userId": userIDs[0],
+        "userId": userIDs[2],
         "submissionDate": "2018-12-19 00:00",
         "file": "submission.py",
         "errorTesting": false,
