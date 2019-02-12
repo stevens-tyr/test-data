@@ -26,7 +26,7 @@ module.exports = [
   },
   {
      "_id": userIDs[1],
-     "email": "student@stevens.edu",
+     "email": "student1@stevens.edu",
      "firstName": "John",
      "lastName": "Doe",
      "password": password,
@@ -47,7 +47,7 @@ module.exports = [
   },
   {
      "_id": userIDs[2],
-     "email": "student@stevens.edu",
+     "email": "student2@stevens.edu",
      "firstName": "John",
      "lastName": "Doe",
      "password": password,
