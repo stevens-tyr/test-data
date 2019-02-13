@@ -6,6 +6,7 @@ module.exports = [
         "department": "CS",
         "number": 101,
         "section": "A",
+        "semester": "19S",
         "professors": [
             userIDs[3],
         ],
@@ -27,6 +28,7 @@ module.exports = [
         "department": "CS",
         "number": 102,
         "section": "A",
+        "semester": "19S",
         "professors": [
             userIDs[3],
         ],
@@ -47,6 +49,7 @@ module.exports = [
         "department": "CS",
         "number": 103,
         "section": "A",
+        "semester": "19S",
         "professors": [
             userIDs[3],
         ],
