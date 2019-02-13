@@ -1,4 +1,4 @@
-const { courseIDs, assignmentIDs } = require('./IDs');
+const { assignmentIDs, courseIDs, userIDs } = require('./IDs');
 
 module.exports = [
     {
@@ -6,9 +6,17 @@ module.exports = [
         "department": "CS",
         "number": 101,
         "section": "A",
-        "professors": [2],
-        "assistants": [3],
-        "students": [1],
+        "professors": [
+            userIDs[3],
+        ],
+        "assistants": [
+            userIDs[4],
+        ],
+        "students": [
+            userIDs[0],
+            userIDs[1],
+            userIDs[2],
+        ],
         "assignments": [
             assignmentIDs[0],
             assignmentIDs[1]
@@ -19,9 +27,16 @@ module.exports = [
         "department": "CS",
         "number": 102,
         "section": "A",
-        "professors": [2],
-        "assistants": [3],
-        "students": [1],
+        "professors": [
+            userIDs[3],
+        ],
+        "assistants": [
+            userIDs[4],
+        ],
+        "students": [
+            userIDs[1],
+            userIDs[2],
+        ],
         "assignments": [
             assignmentIDs[2],
             assignmentIDs[3]
@@ -32,9 +47,15 @@ module.exports = [
         "department": "CS",
         "number": 103,
         "section": "A",
-        "professors": [2],
-        "assistants": [3],
-        "students": [1],
+        "professors": [
+            userIDs[3],
+        ],
+        "assistants": [
+            userIDs[4],
+        ],
+        "students": [
+            userIDs[0],
+        ],
         "assignments": [
             assignmentIDs[4],
             assignmentIDs[5]
