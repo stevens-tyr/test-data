@@ -6,6 +6,7 @@ module.exports = [
   {
      "_id": userIDs[0],
      "email": "student@stevens.edu",
+     "admin": true,
      "firstName": "John",
      "lastName": "Doe",
      "password": password,
@@ -27,6 +28,7 @@ module.exports = [
   {
      "_id": userIDs[1],
      "email": "student1@stevens.edu",
+     "admin": false,
      "firstName": "John",
      "lastName": "Doe",
      "password": password,
@@ -48,6 +50,7 @@ module.exports = [
   {
      "_id": userIDs[2],
      "email": "student2@stevens.edu",
+     "admin": false,
      "firstName": "John",
      "lastName": "Doe",
      "password": password,
@@ -69,6 +72,7 @@ module.exports = [
   {
      "_id": userIDs[3],
      "email": "teacher@stevens.edu",
+     "admin": false,
      "firstName": "Bob",
      "lastName": "Smith",
      "password": password,
@@ -90,6 +94,7 @@ module.exports = [
   {
      "_id": userIDs[4],
      "email": "assistant@stevens.edu",
+     "admin": false,
      "firstName": "Jane",
      "lastName": "Cook",
      "password": password,
