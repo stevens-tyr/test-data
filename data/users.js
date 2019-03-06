@@ -72,7 +72,7 @@ module.exports = [
   {
      "_id": userIDs[3],
      "email": "teacher@stevens.edu",
-     "admin": false,
+     "admin": true,
      "firstName": "Bob",
      "lastName": "Smith",
      "password": password,
