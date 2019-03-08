@@ -6,6 +6,7 @@ module.exports = [
         "userID": userIDs[0],
         "assignmentID":  assignmentIDs[0],
         "submissionDate": new Date("2018-12-10 00:00"),
+        "attemptNumber": 1,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -24,6 +25,7 @@ module.exports = [
         "userIdD": userIDs[0],
         "assignmentID":  assignmentIDs[0],
         "submissionDate": new Date("2018-12-19 00:00"),
+        "attemptNumber": 2,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -42,6 +44,7 @@ module.exports = [
         "userID": userIDs[1],
         "assignmentID":  assignmentIDs[1],
         "submissionDate": new Date("2018-12-10 00:00"),
+        "attemptNumber": 1,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -59,6 +62,7 @@ module.exports = [
         "_id": submissionIDs[3],
         "userID": userIDs[2],
         "assignmentID":  assignmentIDs[1],
+        "attemptNumber": 1,
         "submissionDate": new Date("2018-12-19 00:00"),
         "file": "submission.py",
         "errorTesting": false,
@@ -78,6 +82,7 @@ module.exports = [
         "userID": userIDs[1],
         "assignmentID":  assignmentIDs[2],
         "submissionDate": new Date("2018-12-10 00:00"),
+        "attemptNumber": 1,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -96,6 +101,7 @@ module.exports = [
         "userID": userIDs[1],
         "assignmentID":  assignmentIDs[2],
         "submissionDate": new Date("2018-12-19 00:00"),
+        "attemptNumber": 2,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -114,6 +120,7 @@ module.exports = [
         "userID": userIDs[2],
         "assignmentID":  assignmentIDs[3],
         "submissionDate": new Date("2018-12-10 00:00"),
+        "attemptNumber": 1,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -132,6 +139,7 @@ module.exports = [
         "userID": userIDs[2],
         "assignmentID":  assignmentIDs[3],
         "submissionDate": new Date("2018-12-19 00:00"),
+        "attemptNumber": 2,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -150,6 +158,7 @@ module.exports = [
         "userID": userIDs[0],
         "assignmentID":  assignmentIDs[4],
         "submissionDate": new Date("2018-12-10 00:00"),
+        "attemptNumber": 1,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -168,6 +177,7 @@ module.exports = [
         "userID": userIDs[0],
         "assignmentID":  assignmentIDs[4],
         "submissionDate": new Date("2018-12-19 00:00"),
+        "attemptNumber": 2,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -186,6 +196,7 @@ module.exports = [
         "userID": userIDs[0],
         "assignmentID":  assignmentIDs[5],
         "submissionDate": new Date("2018-12-10 00:00"),
+        "attemptNumber": 1,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
@@ -204,6 +215,7 @@ module.exports = [
         "userID": userIDs[0],
         "assignmentID":  assignmentIDs[5],
         "submissionDate": new Date("2018-12-19 00:00"),
+        "attemptNumber": 1,
         "file": "submission.py",
         "errorTesting": false,
         "cases": {
