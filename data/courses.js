@@ -5,6 +5,7 @@ module.exports = [
         "_id": courseIDs[0],
         "department": "CS",
         "number": 101,
+        "longName": "Intro to Computer Science",
         "section": "A",
         "semester": "19S",
         "professors": [
@@ -26,6 +27,7 @@ module.exports = [
     {
         "_id": courseIDs[1],
         "department": "CS",
+        "longName": "Discrete Structures",
         "number": 102,
         "section": "A",
         "semester": "19S",
@@ -48,6 +50,7 @@ module.exports = [
         "_id": courseIDs[2],
         "department": "CS",
         "number": 103,
+        "longName": "Data Structures",
         "section": "A",
         "semester": "19S",
         "professors": [
