@@ -22,7 +22,7 @@ module.exports = [
      },
     {
         "_id": submissionIDs[1],
-        "userIdD": userIDs[0],
+        "userID": userIDs[0],
         "assignmentID":  assignmentIDs[0],
         "submissionDate": new Date("2018-12-19 00:00"),
         "attemptNumber": 2,

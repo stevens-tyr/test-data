@@ -47,7 +47,7 @@ module.exports = [
         "description": "Last week, we looked at loops, but this week we want to take a look at recursion. Recursion is another form of iteration that helps programmers to break problem into small subproblems. Attached to this assignment are problems that you guys will implement. This is due on December 20th, 2018.",
         "supportingFiles": "recursion.pdf",
         "dueDate": new Date("2018-20-11 00:00"),
-        "published": true,
+        "published": false,
         "numAttempts": 10,
         "tests": [
             {
